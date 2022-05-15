@@ -7,7 +7,7 @@ int main() {
 int arr[] = {7,2,4,1,5,3};
 int n = size(arr);
 
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i <= n-1 ; i++)
     {
         int value = arr[i];
         int hole = i;
